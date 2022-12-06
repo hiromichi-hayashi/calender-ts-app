@@ -1,0 +1,16 @@
+{
+	"name": "random-theme-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm run build:live",
+		"build": "npx tsc --build ./tsconfig.json",
+		"build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"typescript": "^4.9.3"
+	}
+}
