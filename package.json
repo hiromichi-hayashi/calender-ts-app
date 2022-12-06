@@ -1,16 +1,15 @@
 {
-	"name": "random-theme-app",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "npm run build:live",
-		"build": "npx tsc --build ./tsconfig.json",
-		"build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
-	},
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"typescript": "^4.9.3"
-	}
+  "name": "calender-ts-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
+  }
 }
